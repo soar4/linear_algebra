@@ -11654,8 +11654,10 @@ ul.typeahead-list > li > a {
 .highlight .mh { color: #666666 } /* Literal.Number.Hex */
 .highlight .mi { color: #666666 } /* Literal.Number.Integer */
 .highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
 .highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
 .highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
 .highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
 .highlight .s2 { color: #BA2121 } /* Literal.String.Double */
 .highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
@@ -11666,9 +11668,11 @@ ul.typeahead-list > li > a {
 .highlight .s1 { color: #BA2121 } /* Literal.String.Single */
 .highlight .ss { color: #19177C } /* Literal.String.Symbol */
 .highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
 .highlight .vc { color: #19177C } /* Name.Variable.Class */
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
@@ -11769,10 +11773,10 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 任意选一个你喜欢的整数，这能帮你得到稳定的结果</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 任意选一个你喜欢的整数，这能帮你得到稳定的结果</span>
 <span class="n">seed</span> <span class="o">=</span> <span class="mi">6</span> <span class="c1"># todo</span>
 </pre></div>
 
@@ -11785,7 +11789,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#27426;&#36814;&#26469;&#21040;&#32447;&#24615;&#22238;&#24402;&#39033;&#30446;">&#27426;&#36814;&#26469;&#21040;&#32447;&#24615;&#22238;&#24402;&#39033;&#30446;<a class="anchor-link" href="#&#27426;&#36814;&#26469;&#21040;&#32447;&#24615;&#22238;&#24402;&#39033;&#30446;">&#182;</a></h1><p>若项目中的题目有困难没完成也没关系，我们鼓励你带着问题提交项目，评审人会给予你诸多帮助。</p>
+<h1 id="&#27426;&#36814;&#26469;&#21040;&#32447;&#24615;&#22238;&#24402;&#39033;&#30446;">&#27426;&#36814;&#26469;&#21040;&#32447;&#24615;&#22238;&#24402;&#39033;&#30446;<a class="anchor-link" href="#&#27426;&#36814;&#26469;&#21040;&#32447;&#24615;&#22238;&#24402;&#39033;&#30446;">&#194;&#182;</a></h1><p>若项目中的题目有困难没完成也没关系，我们鼓励你带着问题提交项目，评审人会给予你诸多帮助。</p>
 <p>所有选做题都可以不做，不影响项目通过。如果你做了，那么项目评审会帮你批改，也会因为选做部分做错而判定为不通过。</p>
 <p>其中非代码题可以提交手写后扫描的 pdf 文件，或使用 Latex 在文档中直接回答。</p>
 
@@ -11796,16 +11800,16 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="1-&#30697;&#38453;&#36816;&#31639;">1 &#30697;&#38453;&#36816;&#31639;<a class="anchor-link" href="#1-&#30697;&#38453;&#36816;&#31639;">&#182;</a></h1><h2 id="1.1-&#21019;&#24314;&#19968;&#20010;-4*4-&#30340;&#21333;&#20301;&#30697;&#38453;">1.1 &#21019;&#24314;&#19968;&#20010; 4*4 &#30340;&#21333;&#20301;&#30697;&#38453;<a class="anchor-link" href="#1.1-&#21019;&#24314;&#19968;&#20010;-4*4-&#30340;&#21333;&#20301;&#30697;&#38453;">&#182;</a></h2>
+<h1 id="1-&#30697;&#38453;&#36816;&#31639;">1 &#30697;&#38453;&#36816;&#31639;<a class="anchor-link" href="#1-&#30697;&#38453;&#36816;&#31639;">&#194;&#182;</a></h1><h2 id="1.1-&#21019;&#24314;&#19968;&#20010;-4*4-&#30340;&#21333;&#20301;&#30697;&#38453;">1.1 &#21019;&#24314;&#19968;&#20010; 4*4 &#30340;&#21333;&#20301;&#30697;&#38453;<a class="anchor-link" href="#1.1-&#21019;&#24314;&#19968;&#20010;-4*4-&#30340;&#21333;&#20301;&#30697;&#38453;">&#194;&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 这个项目设计来帮你熟悉 python list 和线性代数</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 这个项目设计来帮你熟悉 python list 和线性代数</span>
 <span class="c1"># 你不能调用任何NumPy以及相关的科学计算库来完成作业</span>
 
 
@@ -11825,11 +11829,32 @@ div#notebook {
 
 <span class="c1">#TODO 创建一个 4*4 单位矩阵</span>
 <span class="k">def</span> <span class="nf">create_matrix</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
-    <span class="k">return</span> <span class="p">[[</span><span class="n">y</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">c</span><span class="p">)]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">r</span><span class="p">)]</span>
+    <span class="k">return</span> <span class="p">[[</span><span class="mi">0</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">c</span><span class="p">)]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">r</span><span class="p">)]</span>
 <span class="n">I</span> <span class="o">=</span> <span class="n">create_matrix</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">I</span><span class="p">)):</span>
+    <span class="n">I</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">print</span> <span class="n">I</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -11838,16 +11863,16 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.2-&#36820;&#22238;&#30697;&#38453;&#30340;&#34892;&#25968;&#21644;&#21015;&#25968;">1.2 &#36820;&#22238;&#30697;&#38453;&#30340;&#34892;&#25968;&#21644;&#21015;&#25968;<a class="anchor-link" href="#1.2-&#36820;&#22238;&#30697;&#38453;&#30340;&#34892;&#25968;&#21644;&#21015;&#25968;">&#182;</a></h2>
+<h2 id="1.2-&#36820;&#22238;&#30697;&#38453;&#30340;&#34892;&#25968;&#21644;&#21015;&#25968;">1.2 &#36820;&#22238;&#30697;&#38453;&#30340;&#34892;&#25968;&#21644;&#21015;&#25968;<a class="anchor-link" href="#1.2-&#36820;&#22238;&#30697;&#38453;&#30340;&#34892;&#25968;&#21644;&#21015;&#25968;">&#194;&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># TODO 返回矩阵的行数和列数</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO 返回矩阵的行数和列数</span>
 <span class="k">def</span> <span class="nf">shape</span><span class="p">(</span><span class="n">M</span><span class="p">):</span>
     <span class="k">if</span> <span class="p">(</span><span class="ow">not</span> <span class="n">M</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">M</span><span class="p">)</span><span class="o">&lt;</span><span class="mi">1</span><span class="p">):</span>
         <span class="k">return</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
@@ -11861,10 +11886,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 运行以下代码测试你的 shape 函数</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 运行以下代码测试你的 shape 函数</span>
 <span class="o">%</span><span class="k">run</span> -i -e test.py LinearRegressionTestCase.test_shape
 </pre></div>
 
@@ -11899,16 +11924,16 @@ OK
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.3-&#27599;&#20010;&#20803;&#32032;&#22235;&#33293;&#20116;&#20837;&#21040;&#29305;&#23450;&#23567;&#25968;&#25968;&#20301;">1.3 &#27599;&#20010;&#20803;&#32032;&#22235;&#33293;&#20116;&#20837;&#21040;&#29305;&#23450;&#23567;&#25968;&#25968;&#20301;<a class="anchor-link" href="#1.3-&#27599;&#20010;&#20803;&#32032;&#22235;&#33293;&#20116;&#20837;&#21040;&#29305;&#23450;&#23567;&#25968;&#25968;&#20301;">&#182;</a></h2>
+<h2 id="1.3-&#27599;&#20010;&#20803;&#32032;&#22235;&#33293;&#20116;&#20837;&#21040;&#29305;&#23450;&#23567;&#25968;&#25968;&#20301;">1.3 &#27599;&#20010;&#20803;&#32032;&#22235;&#33293;&#20116;&#20837;&#21040;&#29305;&#23450;&#23567;&#25968;&#25968;&#20301;<a class="anchor-link" href="#1.3-&#27599;&#20010;&#20803;&#32032;&#22235;&#33293;&#20116;&#20837;&#21040;&#29305;&#23450;&#23567;&#25968;&#25968;&#20301;">&#194;&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># TODO 每个元素四舍五入到特定小数数位</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO 每个元素四舍五入到特定小数数位</span>
 <span class="c1"># 直接修改参数矩阵，无返回值</span>
 <span class="kn">from</span> <span class="nn">decimal</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="k">def</span> <span class="nf">matxRound</span><span class="p">(</span><span class="n">M</span><span class="p">,</span> <span class="n">decPts</span><span class="o">=</span><span class="mi">4</span><span class="p">):</span>
@@ -11924,10 +11949,10 @@ OK
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 运行以下代码测试你的 matxRound 函数</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 运行以下代码测试你的 matxRound 函数</span>
 <span class="o">%</span><span class="k">run</span> -i -e test.py LinearRegressionTestCase.test_matxRound
 </pre></div>
 
@@ -11947,7 +11972,7 @@ OK
 <div class="output_subarea output_stream output_stderr output_text">
 <pre>.
 ----------------------------------------------------------------------
-Ran 1 test in 0.127s
+Ran 1 test in 0.084s
 
 OK
 </pre>
@@ -11962,23 +11987,25 @@ OK
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.4-&#35745;&#31639;&#30697;&#38453;&#30340;&#36716;&#32622;">1.4 &#35745;&#31639;&#30697;&#38453;&#30340;&#36716;&#32622;<a class="anchor-link" href="#1.4-&#35745;&#31639;&#30697;&#38453;&#30340;&#36716;&#32622;">&#182;</a></h2>
+<h2 id="1.4-&#35745;&#31639;&#30697;&#38453;&#30340;&#36716;&#32622;">1.4 &#35745;&#31639;&#30697;&#38453;&#30340;&#36716;&#32622;<a class="anchor-link" href="#1.4-&#35745;&#31639;&#30697;&#38453;&#30340;&#36716;&#32622;">&#194;&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># TODO 计算矩阵的转置</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO 计算矩阵的转置</span>
 <span class="k">def</span> <span class="nf">transpose</span><span class="p">(</span><span class="n">M</span><span class="p">):</span>
-    <span class="n">rows</span><span class="p">,</span> <span class="n">cols</span> <span class="o">=</span> <span class="n">shape</span><span class="p">(</span><span class="n">M</span><span class="p">)</span>
-    <span class="n">tmax</span> <span class="o">=</span> <span class="n">create_matrix</span><span class="p">(</span><span class="n">cols</span><span class="p">,</span> <span class="n">rows</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">rows</span><span class="p">):</span>
-        <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">cols</span><span class="p">):</span>
-            <span class="n">tmax</span><span class="p">[</span><span class="n">c</span><span class="p">][</span><span class="n">r</span><span class="p">]</span> <span class="o">=</span> <span class="n">M</span><span class="p">[</span><span class="n">r</span><span class="p">][</span><span class="n">c</span><span class="p">]</span>
-    <span class="k">return</span> <span class="n">tmax</span>
+    <span class="c1"># 利用zip对每个list成员拼装成新的list</span>
+    <span class="k">return</span> <span class="p">[</span><span class="nb">list</span><span class="p">(</span><span class="n">col</span><span class="p">)</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="n">M</span><span class="p">)]</span>
+<span class="c1">#     rows, cols = shape(M)</span>
+<span class="c1">#     tmax = create_matrix(cols, rows)</span>
+<span class="c1">#     for r in range(rows):</span>
+<span class="c1">#         for c in range(cols):</span>
+<span class="c1">#             tmax[c][r] = M[r][c]</span>
+<span class="c1">#     return tmax</span>
 </pre></div>
 
 </div>
@@ -11988,10 +12015,10 @@ OK
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 运行以下代码测试你的 transpose 函数</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 运行以下代码测试你的 transpose 函数</span>
 <span class="o">%</span><span class="k">run</span> -i -e test.py LinearRegressionTestCase.test_transpose
 </pre></div>
 
@@ -12011,7 +12038,7 @@ OK
 <div class="output_subarea output_stream output_stderr output_text">
 <pre>.
 ----------------------------------------------------------------------
-Ran 1 test in 0.018s
+Ran 1 test in 0.011s
 
 OK
 </pre>
@@ -12026,16 +12053,16 @@ OK
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.5-&#35745;&#31639;&#30697;&#38453;&#20056;&#27861;-AB">1.5 &#35745;&#31639;&#30697;&#38453;&#20056;&#27861; AB<a class="anchor-link" href="#1.5-&#35745;&#31639;&#30697;&#38453;&#20056;&#27861;-AB">&#182;</a></h2>
+<h2 id="1.5-&#35745;&#31639;&#30697;&#38453;&#20056;&#27861;-AB">1.5 &#35745;&#31639;&#30697;&#38453;&#20056;&#27861; AB<a class="anchor-link" href="#1.5-&#35745;&#31639;&#30697;&#38453;&#20056;&#27861;-AB">&#194;&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># TODO 计算矩阵乘法 AB，如果无法相乘则raise ValueError</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO 计算矩阵乘法 AB，如果无法相乘则raise ValueError</span>
 <span class="k">def</span> <span class="nf">matxMultiply</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">B</span><span class="p">):</span>
     <span class="n">ra</span><span class="p">,</span> <span class="n">ca</span> <span class="o">=</span> <span class="n">shape</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
     <span class="n">rb</span><span class="p">,</span> <span class="n">cb</span> <span class="o">=</span> <span class="n">shape</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>
@@ -12058,10 +12085,10 @@ OK
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 运行以下代码测试你的 matxMultiply 函数</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 运行以下代码测试你的 matxMultiply 函数</span>
 <span class="o">%</span><span class="k">run</span> -i -e test.py LinearRegressionTestCase.test_matxMultiply
 </pre></div>
 
@@ -12081,7 +12108,7 @@ OK
 <div class="output_subarea output_stream output_stderr output_text">
 <pre>.
 ----------------------------------------------------------------------
-Ran 1 test in 0.080s
+Ran 1 test in 0.122s
 
 OK
 </pre>
@@ -12097,7 +12124,7 @@ OK
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<h1 id="2-Gaussign-Jordan-&#28040;&#20803;&#27861;">2 Gaussign Jordan &#28040;&#20803;&#27861;<a class="anchor-link" href="#2-Gaussign-Jordan-&#28040;&#20803;&#27861;">&#182;</a></h1><h2 id="2.1-&#26500;&#36896;&#22686;&#24191;&#30697;&#38453;">2.1 &#26500;&#36896;&#22686;&#24191;&#30697;&#38453;<a class="anchor-link" href="#2.1-&#26500;&#36896;&#22686;&#24191;&#30697;&#38453;">&#182;</a></h2><p>$ A = \begin{bmatrix}
+<h1 id="2-Gaussign-Jordan-&#28040;&#20803;&#27861;">2 Gaussign Jordan &#28040;&#20803;&#27861;<a class="anchor-link" href="#2-Gaussign-Jordan-&#28040;&#20803;&#27861;">&#194;&#182;</a></h1><h2 id="2.1-&#26500;&#36896;&#22686;&#24191;&#30697;&#38453;">2.1 &#26500;&#36896;&#22686;&#24191;&#30697;&#38453;<a class="anchor-link" href="#2.1-&#26500;&#36896;&#22686;&#24191;&#30697;&#38453;">&#194;&#182;</a></h2><p>$ A = \begin{bmatrix}
     a_{11}    &amp; a_{12} &amp; ... &amp; a_{1n}\\
     a_{21}    &amp; a_{22} &amp; ... &amp; a_{2n}\\
     a_{31}    &amp; a_{22} &amp; ... &amp; a_{3n}\\
@@ -12122,10 +12149,10 @@ OK
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># TODO 构造增广矩阵，假设A，b行数相同</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO 构造增广矩阵，假设A，b行数相同</span>
 <span class="k">def</span> <span class="nf">augmentMatrix</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
     <span class="c1"># print(&#39;left:&#39;,A, &quot;,right:&quot;, b)</span>
     <span class="n">ra</span><span class="p">,</span> <span class="n">ca</span> <span class="o">=</span> <span class="n">shape</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
@@ -12145,10 +12172,10 @@ OK
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 运行以下代码测试你的 augmentMatrix 函数</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 运行以下代码测试你的 augmentMatrix 函数</span>
 <span class="o">%</span><span class="k">run</span> -i -e test.py LinearRegressionTestCase.test_augmentMatrix
 </pre></div>
 
@@ -12168,7 +12195,7 @@ OK
 <div class="output_subarea output_stream output_stderr output_text">
 <pre>.
 ----------------------------------------------------------------------
-Ran 1 test in 0.013s
+Ran 1 test in 0.014s
 
 OK
 </pre>
@@ -12183,7 +12210,7 @@ OK
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="2.2-&#21021;&#31561;&#34892;&#21464;&#25442;">2.2 &#21021;&#31561;&#34892;&#21464;&#25442;<a class="anchor-link" href="#2.2-&#21021;&#31561;&#34892;&#21464;&#25442;">&#182;</a></h2><ul>
+<h2 id="2.2-&#21021;&#31561;&#34892;&#21464;&#25442;">2.2 &#21021;&#31561;&#34892;&#21464;&#25442;<a class="anchor-link" href="#2.2-&#21021;&#31561;&#34892;&#21464;&#25442;">&#194;&#182;</a></h2><ul>
 <li>交换两行</li>
 <li>把某行乘以一个非零常数</li>
 <li>把某行加上另一行的若干倍：</li>
@@ -12194,14 +12221,16 @@ OK
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># TODO r1 &lt;---&gt; r2</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO r1 &lt;---&gt; r2</span>
 <span class="c1"># 直接修改参数矩阵，无返回值</span>
 <span class="k">def</span> <span class="nf">swapRows</span><span class="p">(</span><span class="n">M</span><span class="p">,</span> <span class="n">r1</span><span class="p">,</span> <span class="n">r2</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">M</span><span class="p">[</span><span class="n">r1</span><span class="p">])):</span>
-        <span class="n">M</span><span class="p">[</span><span class="n">r1</span><span class="p">][</span><span class="n">i</span><span class="p">],</span> <span class="n">M</span><span class="p">[</span><span class="n">r2</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">M</span><span class="p">[</span><span class="n">r2</span><span class="p">][</span><span class="n">i</span><span class="p">],</span> <span class="n">M</span><span class="p">[</span><span class="n">r1</span><span class="p">][</span><span class="n">i</span><span class="p">]</span>
+    <span class="c1"># 直接交换引用</span>
+    <span class="n">M</span><span class="p">[</span><span class="n">r1</span><span class="p">],</span><span class="n">M</span><span class="p">[</span><span class="n">r2</span><span class="p">]</span> <span class="o">=</span> <span class="n">M</span><span class="p">[</span><span class="n">r2</span><span class="p">],</span><span class="n">M</span><span class="p">[</span><span class="n">r1</span><span class="p">]</span>
+<span class="c1">#     for i in range(len(M[r1])):</span>
+<span class="c1">#         M[r1][i], M[r2][i] = M[r2][i], M[r1][i]</span>
 </pre></div>
 
 </div>
@@ -12211,10 +12240,10 @@ OK
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 运行以下代码测试你的 swapRows 函数</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 运行以下代码测试你的 swapRows 函数</span>
 <span class="o">%</span><span class="k">run</span> -i -e test.py LinearRegressionTestCase.test_swapRows
 </pre></div>
 
@@ -12234,7 +12263,7 @@ OK
 <div class="output_subarea output_stream output_stderr output_text">
 <pre>.
 ----------------------------------------------------------------------
-Ran 1 test in 0.002s
+Ran 1 test in 0.003s
 
 OK
 </pre>
@@ -12247,10 +12276,10 @@ OK
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># TODO r1 &lt;--- r1 * scale</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO r1 &lt;--- r1 * scale</span>
 <span class="c1"># scale为0是非法输入，要求 raise ValueError</span>
 <span class="c1"># 直接修改参数矩阵，无返回值</span>
 <span class="k">def</span> <span class="nf">scaleRow</span><span class="p">(</span><span class="n">M</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">scale</span><span class="p">):</span>
@@ -12267,10 +12296,10 @@ OK
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 运行以下代码测试你的 scaleRow 函数</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 运行以下代码测试你的 scaleRow 函数</span>
 <span class="o">%</span><span class="k">run</span> -i -e test.py LinearRegressionTestCase.test_scaleRow
 </pre></div>
 
@@ -12303,10 +12332,10 @@ OK
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># TODO r1 &lt;--- r1 + r2*scale</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO r1 &lt;--- r1 + r2*scale</span>
 <span class="c1"># 直接修改参数矩阵，无返回值</span>
 <span class="k">def</span> <span class="nf">addScaledRow</span><span class="p">(</span><span class="n">M</span><span class="p">,</span> <span class="n">r1</span><span class="p">,</span> <span class="n">r2</span><span class="p">,</span> <span class="n">scale</span><span class="p">):</span>
     <span class="k">if</span> <span class="n">scale</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
@@ -12322,10 +12351,10 @@ OK
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 运行以下代码测试你的 addScaledRow 函数</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 运行以下代码测试你的 addScaledRow 函数</span>
 <span class="o">%</span><span class="k">run</span> -i -e test.py LinearRegressionTestCase.test_addScaledRow
 </pre></div>
 
@@ -12345,7 +12374,7 @@ OK
 <div class="output_subarea output_stream output_stderr output_text">
 <pre>.
 ----------------------------------------------------------------------
-Ran 1 test in 0.002s
+Ran 1 test in 0.003s
 
 OK
 </pre>
@@ -12360,7 +12389,7 @@ OK
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="2.3--Gaussian-Jordan-&#28040;&#20803;&#27861;&#27714;&#35299;-Ax-=-b">2.3  Gaussian Jordan &#28040;&#20803;&#27861;&#27714;&#35299; Ax = b<a class="anchor-link" href="#2.3--Gaussian-Jordan-&#28040;&#20803;&#27861;&#27714;&#35299;-Ax-=-b">&#182;</a></h2>
+<h2 id="2.3--Gaussian-Jordan-&#28040;&#20803;&#27861;&#27714;&#35299;-Ax-=-b">2.3  Gaussian Jordan &#28040;&#20803;&#27861;&#27714;&#35299; Ax = b<a class="anchor-link" href="#2.3--Gaussian-Jordan-&#28040;&#20803;&#27861;&#27714;&#35299;-Ax-=-b">&#194;&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -12368,7 +12397,7 @@ OK
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="2.3.1-&#31639;&#27861;">2.3.1 &#31639;&#27861;<a class="anchor-link" href="#2.3.1-&#31639;&#27861;">&#182;</a></h3><p>步骤1 检查A，b是否行数相同</p>
+<h3 id="2.3.1-&#31639;&#27861;">2.3.1 &#31639;&#27861;<a class="anchor-link" href="#2.3.1-&#31639;&#27861;">&#194;&#182;</a></h3><p>步骤1 检查A，b是否行数相同</p>
 <p>步骤2 构造增广矩阵Ab</p>
 <p>步骤3 逐列转换Ab为化简行阶梯形矩阵 <a href="https://zh.wikipedia.org/wiki/%E9%98%B6%E6%A2%AF%E5%BD%A2%E7%9F%A9%E9%98%B5#.E5.8C.96.E7.AE.80.E5.90.8E.E7.9A.84-.7Bzh-hans:.E8.A1.8C.3B_zh-hant:.E5.88.97.3B.7D-.E9.98.B6.E6.A2.AF.E5.BD.A2.E7.9F.A9.E9.98.B5">中文维基链接</a></p>
 
@@ -12393,7 +12422,7 @@ OK
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="2.3.2-&#31639;&#27861;&#25512;&#28436;">2.3.2 &#31639;&#27861;&#25512;&#28436;<a class="anchor-link" href="#2.3.2-&#31639;&#27861;&#25512;&#28436;">&#182;</a></h3><p>为了充分了解Gaussian Jordan消元法的计算流程，请根据Gaussian Jordan消元法，分别手动推演矩阵A为<strong><em>可逆矩阵</em></strong>，矩阵A为<strong><em>奇异矩阵</em></strong>两种情况。</p>
+<h3 id="2.3.2-&#31639;&#27861;&#25512;&#28436;">2.3.2 &#31639;&#27861;&#25512;&#28436;<a class="anchor-link" href="#2.3.2-&#31639;&#27861;&#25512;&#28436;">&#194;&#182;</a></h3><p>为了充分了解Gaussian Jordan消元法的计算流程，请根据Gaussian Jordan消元法，分别手动推演矩阵A为<strong><em>可逆矩阵</em></strong>，矩阵A为<strong><em>奇异矩阵</em></strong>两种情况。</p>
 
 </div>
 </div>
@@ -12402,7 +12431,7 @@ OK
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="&#25512;&#28436;&#31034;&#20363;">&#25512;&#28436;&#31034;&#20363;<a class="anchor-link" href="#&#25512;&#28436;&#31034;&#20363;">&#182;</a></h4><p>$Ab = \begin{bmatrix}
+<h4 id="&#25512;&#28436;&#31034;&#20363;">&#25512;&#28436;&#31034;&#20363;<a class="anchor-link" href="#&#25512;&#28436;&#31034;&#20363;">&#194;&#182;</a></h4><p>$Ab = \begin{bmatrix}
     -7 &amp; 5 &amp; -1 &amp; 1\\
     1 &amp; -3 &amp; -8 &amp; 1\\
     -10 &amp; -2 &amp; 9 &amp; 1\end{bmatrix}$</p>
@@ -12421,7 +12450,7 @@ $\begin{bmatrix}
     1 &amp; 0 &amp; 0 &amp; -\frac{3}{16}\\
     0 &amp; 1 &amp; 0 &amp; -\frac{59}{688}\\
     0 &amp; 0 &amp; 1 &amp; -\frac{5}{43}\end{bmatrix}$</p>
-<h4 id="&#25512;&#28436;&#26377;&#20197;&#19979;&#35201;&#27714;:">&#25512;&#28436;&#26377;&#20197;&#19979;&#35201;&#27714;:<a class="anchor-link" href="#&#25512;&#28436;&#26377;&#20197;&#19979;&#35201;&#27714;:">&#182;</a></h4><ol>
+<h4 id="&#25512;&#28436;&#26377;&#20197;&#19979;&#35201;&#27714;:">&#25512;&#28436;&#26377;&#20197;&#19979;&#35201;&#27714;:<a class="anchor-link" href="#&#25512;&#28436;&#26377;&#20197;&#19979;&#35201;&#27714;:">&#194;&#182;</a></h4><ol>
 <li>展示每一列的消元结果, 比如3*3的矩阵, 需要写三步</li>
 <li>用分数来表示</li>
 <li>分数不能再约分</li>
@@ -12437,16 +12466,16 @@ $\begin{bmatrix}
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="&#20197;&#19979;&#24320;&#22987;&#20320;&#30340;&#23581;&#35797;&#21543;!">&#20197;&#19979;&#24320;&#22987;&#20320;&#30340;&#23581;&#35797;&#21543;!<a class="anchor-link" href="#&#20197;&#19979;&#24320;&#22987;&#20320;&#30340;&#23581;&#35797;&#21543;!">&#182;</a></h4>
+<h4 id="&#20197;&#19979;&#24320;&#22987;&#20320;&#30340;&#23581;&#35797;&#21543;!">&#20197;&#19979;&#24320;&#22987;&#20320;&#30340;&#23581;&#35797;&#21543;!<a class="anchor-link" href="#&#20197;&#19979;&#24320;&#22987;&#20320;&#30340;&#23581;&#35797;&#21543;!">&#194;&#182;</a></h4>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 不要修改这里！</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 不要修改这里！</span>
 <span class="kn">from</span> <span class="nn">helper</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="n">A</span> <span class="o">=</span> <span class="n">generateMatrix</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="n">seed</span><span class="p">,</span><span class="n">singular</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
 <span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span><span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span> <span class="c1"># it doesn&#39;t matter</span>
@@ -12468,9 +12497,9 @@ $\begin{bmatrix}
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>  2,  5,-10 ||  1 
- -7, -7, -3 ||  1 
- -1,  9,  8 ||  1 
+<pre>  1,  3,  5 ||  1 
+ -9,  2,  4 ||  1 
+ -6, -9, -2 ||  1 
 </pre>
 </div>
 </div>
@@ -12511,71 +12540,26 @@ $\begin{bmatrix}
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 不要修改这里！</span>
-<span class="n">A</span> <span class="o">=</span> <span class="n">generateMatrix</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="n">seed</span><span class="p">,</span><span class="n">singular</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
-<span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span><span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span>
-<span class="n">Ab</span> <span class="o">=</span> <span class="n">augmentMatrix</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">tolist</span><span class="p">(),</span><span class="n">b</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span> <span class="c1"># 请确保你的增广矩阵已经写好了</span>
-<span class="n">printInMatrixFormat</span><span class="p">(</span><span class="n">Ab</span><span class="p">,</span><span class="n">padding</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span><span class="n">truncating</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre> -8,  9,  9 ||  1 
-  4, -7, -7 ||  1 
- -3, -1, -1 ||  1 
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>请按照算法的步骤3，逐步推演<strong><em>奇异矩阵</em></strong>的变换。</p>
-<p>在下面列出每一次循环体执行之后的增广矩阵。</p>
-<p>要求：</p>
-<ol>
-<li>做分数运算</li>
-<li>使用<code>\frac{n}{m}</code>来渲染分数，如下：<ul>
-<li>$\frac{n}{m}$</li>
-<li>$-\frac{a}{b}$</li>
-</ul>
-</li>
-</ol>
 <p>$ Ab = \begin{bmatrix}
-    0 &amp; 0 &amp; 0 &amp; 0 \\
-    0 &amp; 0 &amp; 0 &amp; 0 \\
-    0 &amp; 0 &amp; 0 &amp; 0 \end{bmatrix}$</p>
+  1 &amp;  3 &amp;  5 &amp;  1 \\
+ -9 &amp;  2 &amp;  4 &amp;  1 \\
+ -6 &amp; -9 &amp; -2 &amp;  1 \end{bmatrix}$</p>
 <p>$ --&gt; \begin{bmatrix}
-    0 &amp; 0 &amp; 0 &amp; 0 \\
-    0 &amp; 0 &amp; 0 &amp; 0 \\
-    0 &amp; 0 &amp; 0 &amp; 0 \end{bmatrix}$</p>
+1   &amp;    -2/9  &amp;  -4/9   &amp; -1/9 \\
+0   &amp;    -31/3 &amp;  -14/3  &amp; 1/3  \\
+0   &amp;    29/9  &amp;  49/9   &amp; 10/9  \end{bmatrix}$</p>
 <p>$ --&gt; \begin{bmatrix}
-    0 &amp; 0 &amp; 0 &amp; 0 \\
-    0 &amp; 0 &amp; 0 &amp; 0 \\
-    0 &amp; 0 &amp; 0 &amp; 0 \end{bmatrix}$</p>
-<p>$...$</p>
+1   &amp;    0     &amp;  -32/93 &amp; -11/93 \\
+0   &amp;    1     &amp;  14/31  &amp; -1/31  \\
+0   &amp;    0     &amp;  371/93 &amp; 113/93  \end{bmatrix}$</p>
+<p>$ --&gt; \begin{bmatrix}
+1   &amp;    0     &amp;  0      &amp; -5/371 \\
+0   &amp;    1     &amp;  0      &amp; -9/53  \\
+0   &amp;    0     &amp;  1      &amp; 113/371  \end{bmatrix}$</p>
 
 </div>
 </div>
@@ -12584,16 +12568,16 @@ $\begin{bmatrix}
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="2.3.3-&#23454;&#29616;-Gaussian-Jordan-&#28040;&#20803;&#27861;">2.3.3 &#23454;&#29616; Gaussian Jordan &#28040;&#20803;&#27861;<a class="anchor-link" href="#2.3.3-&#23454;&#29616;-Gaussian-Jordan-&#28040;&#20803;&#27861;">&#182;</a></h3>
+<h3 id="2.3.3-&#23454;&#29616;-Gaussian-Jordan-&#28040;&#20803;&#27861;">2.3.3 &#23454;&#29616; Gaussian Jordan &#28040;&#20803;&#27861;<a class="anchor-link" href="#2.3.3-&#23454;&#29616;-Gaussian-Jordan-&#28040;&#20803;&#27861;">&#194;&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># TODO 实现 Gaussain Jordan 方法求解 Ax = b</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO 实现 Gaussain Jordan 方法求解 Ax = b</span>
 
 <span class="sd">&quot;&quot;&quot; Gaussian Jordan 方法求解 Ax = b.</span>
 <span class="sd">    参数</span>
@@ -12635,7 +12619,8 @@ $\begin{bmatrix}
             <span class="n">printMatix</span><span class="p">(</span><span class="n">M</span><span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">gj_Solve</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">decPts</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">epsilon</span> <span class="o">=</span> <span class="mf">1.0e-16</span><span class="p">):</span>
+<span class="c1"># 用于打印推导步骤(分数形式)</span>
+<span class="k">def</span> <span class="nf">gj_Solve_demo_show</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">decPts</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">epsilon</span> <span class="o">=</span> <span class="mf">1.0e-16</span><span class="p">):</span>
     <span class="n">ra</span><span class="p">,</span> <span class="n">ca</span> <span class="o">=</span> <span class="n">shape</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
     <span class="n">rb</span><span class="p">,</span> <span class="n">cb</span> <span class="o">=</span> <span class="n">shape</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">ra</span> <span class="o">!=</span> <span class="n">rb</span><span class="p">:</span>
@@ -12666,6 +12651,33 @@ $\begin{bmatrix}
     <span class="n">matxRound</span><span class="p">(</span><span class="n">Ab</span><span class="p">)</span>
     <span class="c1"># printMatix(Ab)</span>
     <span class="k">return</span> <span class="p">[[</span><span class="n">x</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">transpose</span><span class="p">(</span><span class="n">Ab</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span>
+
+
+<span class="k">def</span> <span class="nf">gj_Solve</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">decPts</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">epsilon</span> <span class="o">=</span> <span class="mf">1.0e-16</span><span class="p">):</span>
+    <span class="n">ra</span><span class="p">,</span> <span class="n">ca</span> <span class="o">=</span> <span class="n">shape</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+    <span class="n">rb</span><span class="p">,</span> <span class="n">cb</span> <span class="o">=</span> <span class="n">shape</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">ra</span> <span class="o">!=</span> <span class="n">rb</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;row not equal&quot;</span><span class="p">)</span>
+    <span class="n">Ab</span> <span class="o">=</span> <span class="n">augmentMatrix</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">ca</span><span class="p">):</span>
+        <span class="c1"># 倒置矩阵，使用内建方法操作</span>
+        <span class="c1"># 寻找列c中 对角线以及对角线以下所有元素（行 c~N）的绝对值的最大值</span>
+        <span class="n">AbT</span> <span class="o">=</span> <span class="n">transpose</span><span class="p">(</span><span class="n">Ab</span><span class="p">)</span>
+        <span class="n">maxVal</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">AbT</span><span class="p">[</span><span class="n">c</span><span class="p">][</span><span class="n">c</span><span class="p">:],</span> <span class="n">key</span><span class="o">=</span><span class="nb">abs</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">maxVal</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">epsilon</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">None</span>
+        <span class="c1"># 使用第一个行变换，将绝对值最大值所在行交换到对角线元素所在行（行c）</span>
+        <span class="n">maxIdx</span> <span class="o">=</span> <span class="n">AbT</span><span class="p">[</span><span class="n">c</span><span class="p">][</span><span class="n">c</span><span class="p">:]</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">maxVal</span><span class="p">)</span> <span class="o">+</span> <span class="n">c</span>
+        <span class="n">swapRows</span><span class="p">(</span><span class="n">Ab</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">maxIdx</span><span class="p">)</span>
+        <span class="c1"># 使用第二个行变换，将列c的对角线元素缩放为1</span>
+        <span class="n">scaleRow</span><span class="p">(</span><span class="n">Ab</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="p">(</span><span class="n">Ab</span><span class="p">[</span><span class="n">c</span><span class="p">][</span><span class="n">c</span><span class="p">]))</span>
+        <span class="c1"># 多次使用第三个行变换，将列c的其他元素消为0</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">ra</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">i</span> <span class="o">!=</span> <span class="n">c</span> <span class="ow">and</span> <span class="nb">abs</span><span class="p">(</span><span class="n">Ab</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">c</span><span class="p">])</span><span class="o">!=</span><span class="mi">0</span><span class="p">:</span>
+                <span class="n">addScaledRow</span><span class="p">(</span><span class="n">Ab</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span> <span class="o">*</span> <span class="n">Ab</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">c</span><span class="p">])</span>
+
+    <span class="n">matxRound</span><span class="p">(</span><span class="n">Ab</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[[</span><span class="n">x</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">transpose</span><span class="p">(</span><span class="n">Ab</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span>
 </pre></div>
 
 </div>
@@ -12675,10 +12687,10 @@ $\begin{bmatrix}
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 运行以下代码测试你的 gj_Solve 函数</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 运行以下代码测试你的 gj_Solve 函数</span>
 <span class="o">%</span><span class="k">run</span> -i -e test.py LinearRegressionTestCase.test_gj_Solve
 </pre></div>
 
@@ -12698,7 +12710,7 @@ $\begin{bmatrix}
 <div class="output_subarea output_stream output_stderr output_text">
 <pre>.
 ----------------------------------------------------------------------
-Ran 1 test in 92.273s
+Ran 1 test in 6.448s
 
 OK
 </pre>
@@ -12713,7 +12725,7 @@ OK
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="(&#36873;&#20570;)-2.4-&#31639;&#27861;&#27491;&#30830;&#21028;&#26029;&#20102;&#22855;&#24322;&#30697;&#38453;&#65306;">(&#36873;&#20570;) 2.4 &#31639;&#27861;&#27491;&#30830;&#21028;&#26029;&#20102;&#22855;&#24322;&#30697;&#38453;&#65306;<a class="anchor-link" href="#(&#36873;&#20570;)-2.4-&#31639;&#27861;&#27491;&#30830;&#21028;&#26029;&#20102;&#22855;&#24322;&#30697;&#38453;&#65306;">&#182;</a></h2><p>在算法的步骤3 中，如果发现某一列对角线和对角线以下所有元素都为0，那么则断定这个矩阵为奇异矩阵。</p>
+<h2 id="(&#36873;&#20570;)-2.4-&#31639;&#27861;&#27491;&#30830;&#21028;&#26029;&#20102;&#22855;&#24322;&#30697;&#38453;&#65306;">(&#36873;&#20570;) 2.4 &#31639;&#27861;&#27491;&#30830;&#21028;&#26029;&#20102;&#22855;&#24322;&#30697;&#38453;&#65306;<a class="anchor-link" href="#(&#36873;&#20570;)-2.4-&#31639;&#27861;&#27491;&#30830;&#21028;&#26029;&#20102;&#22855;&#24322;&#30697;&#38453;&#65306;">&#194;&#182;</a></h2><p>在算法的步骤3 中，如果发现某一列对角线和对角线以下所有元素都为0，那么则断定这个矩阵为奇异矩阵。</p>
 <p>我们用正式的语言描述这个命题，并证明为真。</p>
 <p>证明下面的命题：</p>
 <p><strong>如果方阵 A 可以被分为4个部分: </strong></p>
@@ -12745,7 +12757,7 @@ OK
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="3--&#32447;&#24615;&#22238;&#24402;">3  &#32447;&#24615;&#22238;&#24402;<a class="anchor-link" href="#3--&#32447;&#24615;&#22238;&#24402;">&#182;</a></h1>
+<h1 id="3--&#32447;&#24615;&#22238;&#24402;">3  &#32447;&#24615;&#22238;&#24402;<a class="anchor-link" href="#3--&#32447;&#24615;&#22238;&#24402;">&#194;&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -12753,16 +12765,16 @@ OK
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="3.1-&#38543;&#26426;&#29983;&#25104;&#26679;&#26412;&#28857;">3.1 &#38543;&#26426;&#29983;&#25104;&#26679;&#26412;&#28857;<a class="anchor-link" href="#3.1-&#38543;&#26426;&#29983;&#25104;&#26679;&#26412;&#28857;">&#182;</a></h2>
+<h2 id="3.1-&#38543;&#26426;&#29983;&#25104;&#26679;&#26412;&#28857;">3.1 &#38543;&#26426;&#29983;&#25104;&#26679;&#26412;&#28857;<a class="anchor-link" href="#3.1-&#38543;&#26426;&#29983;&#25104;&#26679;&#26412;&#28857;">&#194;&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 不要修改这里！</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 不要修改这里！</span>
 <span class="c1"># 运行一次就够了！</span>
 <span class="kn">from</span> <span class="nn">helper</span> <span class="kn">import</span> <span class="o">*</span>
 <span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
@@ -12782,23 +12794,56 @@ OK
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;type &#39;list&#39;&gt; &lt;type &#39;list&#39;&gt;
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="3.2-&#25311;&#21512;&#19968;&#26465;&#30452;&#32447;">3.2 &#25311;&#21512;&#19968;&#26465;&#30452;&#32447;<a class="anchor-link" href="#3.2-&#25311;&#21512;&#19968;&#26465;&#30452;&#32447;">&#182;</a></h2><h3 id="3.2.1-&#29468;&#27979;&#19968;&#26465;&#30452;&#32447;">3.2.1 &#29468;&#27979;&#19968;&#26465;&#30452;&#32447;<a class="anchor-link" href="#3.2.1-&#29468;&#27979;&#19968;&#26465;&#30452;&#32447;">&#182;</a></h3>
+<h2 id="3.2-&#25311;&#21512;&#19968;&#26465;&#30452;&#32447;">3.2 &#25311;&#21512;&#19968;&#26465;&#30452;&#32447;<a class="anchor-link" href="#3.2-&#25311;&#21512;&#19968;&#26465;&#30452;&#32447;">&#194;&#182;</a></h2><h3 id="3.2.1-&#29468;&#27979;&#19968;&#26465;&#30452;&#32447;">3.2.1 &#29468;&#27979;&#19968;&#26465;&#30452;&#32447;<a class="anchor-link" href="#3.2.1-&#29468;&#27979;&#19968;&#26465;&#30452;&#32447;">&#194;&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1">#TODO 请选择最适合的直线 y = mx + b</span>
-<span class="n">m1</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">b1</span> <span class="o">=</span> <span class="mi">0</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1">#TODO 请选择最适合的直线 y = mx + b</span>
+<span class="n">m1</span> <span class="o">=</span> <span class="mf">3.9</span>
+<span class="n">b1</span> <span class="o">=</span> <span class="mf">7.7</span>
 
 <span class="c1"># 不要修改这里！</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">((</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
@@ -12817,12 +12862,34 @@ OK
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="3.2.2-&#35745;&#31639;&#24179;&#22343;&#24179;&#26041;&#35823;&#24046;-(MSE)">3.2.2 &#35745;&#31639;&#24179;&#22343;&#24179;&#26041;&#35823;&#24046; (MSE)<a class="anchor-link" href="#3.2.2-&#35745;&#31639;&#24179;&#22343;&#24179;&#26041;&#35823;&#24046;-(MSE)">&#182;</a></h3>
+<h3 id="3.2.2-&#35745;&#31639;&#24179;&#22343;&#24179;&#26041;&#35823;&#24046;-(MSE)">3.2.2 &#35745;&#31639;&#24179;&#22343;&#24179;&#26041;&#35823;&#24046; (MSE)<a class="anchor-link" href="#3.2.2-&#35745;&#31639;&#24179;&#22343;&#24179;&#26041;&#35823;&#24046;-(MSE)">&#194;&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -12840,13 +12907,16 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># TODO 实现以下函数并输出所选直线的MSE</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO 实现以下函数并输出所选直线的MSE</span>
 
 <span class="k">def</span> <span class="nf">calculateMSE</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="n">Y</span><span class="p">,</span><span class="n">m</span><span class="p">,</span><span class="n">b</span><span class="p">):</span>
-    <span class="k">return</span> <span class="mi">0</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">X</span><span class="p">)</span><span class="o">!=</span><span class="nb">len</span><span class="p">(</span><span class="n">Y</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">X</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span>
+    <span class="n">squa_list</span> <span class="o">=</span> <span class="p">[</span> <span class="p">(</span><span class="n">Y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">m</span><span class="o">*</span><span class="n">X</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span><span class="n">b</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">X</span><span class="p">))</span> <span class="p">]</span>
+    <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">squa_list</span><span class="p">)</span><span class="o">*</span><span class="mf">1.0</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">squa_list</span><span class="p">)</span>
 
 <span class="k">print</span><span class="p">(</span><span class="n">calculateMSE</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="n">Y</span><span class="p">,</span><span class="n">m1</span><span class="p">,</span><span class="n">b1</span><span class="p">))</span>
 </pre></div>
@@ -12855,12 +12925,30 @@ $$</p>
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>1.05042590671
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="3.2.3-&#35843;&#25972;&#21442;&#25968;-$m,-b$-&#26469;&#33719;&#24471;&#26368;&#23567;&#30340;&#24179;&#26041;&#24179;&#22343;&#35823;&#24046;">3.2.3 &#35843;&#25972;&#21442;&#25968; $m, b$ &#26469;&#33719;&#24471;&#26368;&#23567;&#30340;&#24179;&#26041;&#24179;&#22343;&#35823;&#24046;<a class="anchor-link" href="#3.2.3-&#35843;&#25972;&#21442;&#25968;-$m,-b$-&#26469;&#33719;&#24471;&#26368;&#23567;&#30340;&#24179;&#26041;&#24179;&#22343;&#35823;&#24046;">&#182;</a></h3><p>你可以调整3.2.1中的参数 $m1,b1$ 让蓝点均匀覆盖在红线周围，然后微调 $m1, b1$ 让MSE最小。</p>
+<h3 id="3.2.3-&#35843;&#25972;&#21442;&#25968;-$m,-b$-&#26469;&#33719;&#24471;&#26368;&#23567;&#30340;&#24179;&#26041;&#24179;&#22343;&#35823;&#24046;">3.2.3 &#35843;&#25972;&#21442;&#25968; $m, b$ &#26469;&#33719;&#24471;&#26368;&#23567;&#30340;&#24179;&#26041;&#24179;&#22343;&#35823;&#24046;<a class="anchor-link" href="#3.2.3-&#35843;&#25972;&#21442;&#25968;-$m,-b$-&#26469;&#33719;&#24471;&#26368;&#23567;&#30340;&#24179;&#26041;&#24179;&#22343;&#35823;&#24046;">&#194;&#182;</a></h3><p>你可以调整3.2.1中的参数 $m1,b1$ 让蓝点均匀覆盖在红线周围，然后微调 $m1, b1$ 让MSE最小。</p>
 
 </div>
 </div>
@@ -12869,7 +12957,7 @@ $$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="3.3-(&#36873;&#20570;)-&#25214;&#21040;&#21442;&#25968;-$m,-b$-&#20351;&#24471;&#24179;&#26041;&#24179;&#22343;&#35823;&#24046;&#26368;&#23567;">3.3 (&#36873;&#20570;) &#25214;&#21040;&#21442;&#25968; $m, b$ &#20351;&#24471;&#24179;&#26041;&#24179;&#22343;&#35823;&#24046;&#26368;&#23567;<a class="anchor-link" href="#3.3-(&#36873;&#20570;)-&#25214;&#21040;&#21442;&#25968;-$m,-b$-&#20351;&#24471;&#24179;&#26041;&#24179;&#22343;&#35823;&#24046;&#26368;&#23567;">&#182;</a></h2><p><strong>这一部分需要简单的微积分知识(  $ (x^2)' = 2x $ )。因为这是一个线性代数项目，所以设为选做。</strong></p>
+<h2 id="3.3-(&#36873;&#20570;)-&#25214;&#21040;&#21442;&#25968;-$m,-b$-&#20351;&#24471;&#24179;&#26041;&#24179;&#22343;&#35823;&#24046;&#26368;&#23567;">3.3 (&#36873;&#20570;) &#25214;&#21040;&#21442;&#25968; $m, b$ &#20351;&#24471;&#24179;&#26041;&#24179;&#22343;&#35823;&#24046;&#26368;&#23567;<a class="anchor-link" href="#3.3-(&#36873;&#20570;)-&#25214;&#21040;&#21442;&#25968;-$m,-b$-&#20351;&#24471;&#24179;&#26041;&#24179;&#22343;&#35823;&#24046;&#26368;&#23567;">&#194;&#182;</a></h2><p><strong>这一部分需要简单的微积分知识(  $ (x^2)' = 2x $ )。因为这是一个线性代数项目，所以设为选做。</strong></p>
 <p>刚刚我们手动调节参数，尝试找到最小的平方平均误差。下面我们要精确得求解 $m, b$ 使得平方平均误差最小。</p>
 <p>定义目标函数 $E$ 为
 $$
@@ -12877,7 +12965,7 @@ E = \frac{1}{2}\sum_{i=1}^{n}{(y_i - mx_i - b)^2}
 $$</p>
 <p>因为 $E = \frac{n}{2}MSE$, 所以 $E$ 取到最小值时，$MSE$ 也取到最小值。要找到 $E$ 的最小值，即要找到 $m, b$ 使得 $E$ 相对于 $m$, $E$ 相对于 $b$ 的偏导数等于0.</p>
 <p>因此我们要解下面的方程组。</p>
-<p>$$
+$$
 \begin{cases}
 \displaystyle
 \frac{\partial E}{\partial m} =0 \\
@@ -12885,16 +12973,14 @@ $$</p>
 \displaystyle
 \frac{\partial E}{\partial b} =0 \\
 \end{cases}
-$$</p>
-<h3 id="3.3.1-&#35745;&#31639;&#30446;&#26631;&#20989;&#25968;&#30456;&#23545;&#20110;&#21442;&#25968;&#30340;&#23548;&#25968;">3.3.1 &#35745;&#31639;&#30446;&#26631;&#20989;&#25968;&#30456;&#23545;&#20110;&#21442;&#25968;&#30340;&#23548;&#25968;<a class="anchor-link" href="#3.3.1-&#35745;&#31639;&#30446;&#26631;&#20989;&#25968;&#30456;&#23545;&#20110;&#21442;&#25968;&#30340;&#23548;&#25968;">&#182;</a></h3><p>首先我们计算两个式子左边的值</p>
+$$<h3 id="3.3.1-&#35745;&#31639;&#30446;&#26631;&#20989;&#25968;&#30456;&#23545;&#20110;&#21442;&#25968;&#30340;&#23548;&#25968;">3.3.1 &#35745;&#31639;&#30446;&#26631;&#20989;&#25968;&#30456;&#23545;&#20110;&#21442;&#25968;&#30340;&#23548;&#25968;<a class="anchor-link" href="#3.3.1-&#35745;&#31639;&#30446;&#26631;&#20989;&#25968;&#30456;&#23545;&#20110;&#21442;&#25968;&#30340;&#23548;&#25968;">&#194;&#182;</a></h3><p>首先我们计算两个式子左边的值</p>
 <p>证明/计算：
 $$
 \frac{\partial E}{\partial m} = \sum_{i=1}^{n}{-x_i(y_i - mx_i - b)}
 $$</p>
-<p>$$
+$$
 \frac{\partial E}{\partial b} = \sum_{i=1}^{n}{-(y_i - mx_i - b)}
-$$</p>
-
+$$
 </div>
 </div>
 </div>
@@ -12911,8 +12997,8 @@ $$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="3.3.2-&#23454;&#20363;&#25512;&#28436;">3.3.2 &#23454;&#20363;&#25512;&#28436;<a class="anchor-link" href="#3.3.2-&#23454;&#20363;&#25512;&#28436;">&#182;</a></h3><p>现在我们有了一个二元二次方程组</p>
-<p>$$
+<h3 id="3.3.2-&#23454;&#20363;&#25512;&#28436;">3.3.2 &#23454;&#20363;&#25512;&#28436;<a class="anchor-link" href="#3.3.2-&#23454;&#20363;&#25512;&#28436;">&#194;&#182;</a></h3><p>现在我们有了一个二元二次方程组</p>
+$$
 \begin{cases}
 \displaystyle
 \sum_{i=1}^{n}{-x_i(y_i - mx_i - b)} =0 \\
@@ -12920,8 +13006,7 @@ $$</p>
 \displaystyle
 \sum_{i=1}^{n}{-(y_i - mx_i - b)} =0 \\
 \end{cases}
-$$</p>
-<p>为了加强理解，我们用一个实际例子演练。</p>
+$$<p>为了加强理解，我们用一个实际例子演练。</p>
 <p>我们要用三个点 $(1,1), (2,2), (3,2)$ 来拟合一条直线 y = m*x + b, 请写出</p>
 <ul>
 <li>目标函数 $E$, </li>
@@ -12945,7 +13030,7 @@ $$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="3.3.3-&#23558;&#26041;&#31243;&#32452;&#20889;&#25104;&#30697;&#38453;&#24418;&#24335;">3.3.3 &#23558;&#26041;&#31243;&#32452;&#20889;&#25104;&#30697;&#38453;&#24418;&#24335;<a class="anchor-link" href="#3.3.3-&#23558;&#26041;&#31243;&#32452;&#20889;&#25104;&#30697;&#38453;&#24418;&#24335;">&#182;</a></h3><p>我们的二元二次方程组可以用更简洁的矩阵形式表达，将方程组写成矩阵形式更有利于我们使用 Gaussian Jordan 消元法求解。</p>
+<h3 id="3.3.3-&#23558;&#26041;&#31243;&#32452;&#20889;&#25104;&#30697;&#38453;&#24418;&#24335;">3.3.3 &#23558;&#26041;&#31243;&#32452;&#20889;&#25104;&#30697;&#38453;&#24418;&#24335;<a class="anchor-link" href="#3.3.3-&#23558;&#26041;&#31243;&#32452;&#20889;&#25104;&#30697;&#38453;&#24418;&#24335;">&#194;&#182;</a></h3><p>我们的二元二次方程组可以用更简洁的矩阵形式表达，将方程组写成矩阵形式更有利于我们使用 Gaussian Jordan 消元法求解。</p>
 <p>请证明 
 $$
 \begin{bmatrix}
@@ -12999,23 +13084,29 @@ $$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="3.4-&#27714;&#35299;-$X^TXh-=-X^TY$">3.4 &#27714;&#35299; $X^TXh = X^TY$<a class="anchor-link" href="#3.4-&#27714;&#35299;-$X^TXh-=-X^TY$">&#182;</a></h3><p>在3.3 中，我们知道线性回归问题等价于求解 $X^TXh = X^TY$ (如果你选择不做3.3，就勇敢的相信吧，哈哈)</p>
+<h3 id="3.4-&#27714;&#35299;-$X^TXh-=-X^TY$">3.4 &#27714;&#35299; $X^TXh = X^TY$<a class="anchor-link" href="#3.4-&#27714;&#35299;-$X^TXh-=-X^TY$">&#194;&#182;</a></h3><p>在3.3 中，我们知道线性回归问题等价于求解 $X^TXh = X^TY$ (如果你选择不做3.3，就勇敢的相信吧，哈哈)</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[55]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># TODO 实现线性回归</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO 实现线性回归</span>
 <span class="sd">&#39;&#39;&#39;</span>
 <span class="sd">参数：X, Y 存储着一一对应的横坐标与纵坐标的两个一维数组</span>
 <span class="sd">返回：m，b 浮点数</span>
 <span class="sd">&#39;&#39;&#39;</span>
 <span class="k">def</span> <span class="nf">linearRegression</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="n">Y</span><span class="p">):</span>
-    <span class="k">return</span> <span class="bp">None</span><span class="p">,</span><span class="bp">None</span>
+    <span class="n">X</span> <span class="o">=</span> <span class="p">[</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">X</span> <span class="p">]</span>
+    <span class="n">XT</span> <span class="o">=</span> <span class="n">transpose</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+    <span class="n">A</span> <span class="o">=</span> <span class="n">matxMultiply</span><span class="p">(</span><span class="n">XT</span><span class="p">,</span> <span class="n">X</span><span class="p">)</span>
+    <span class="n">Y</span> <span class="o">=</span> <span class="p">[</span> <span class="p">[</span><span class="n">y</span><span class="p">]</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">Y</span> <span class="p">]</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">matxMultiply</span><span class="p">(</span><span class="n">XT</span><span class="p">,</span> <span class="n">Y</span><span class="p">)</span>
+    <span class="n">h</span> <span class="o">=</span> <span class="n">gj_Solve</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">h</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">h</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
 
 <span class="n">m2</span><span class="p">,</span><span class="n">b2</span> <span class="o">=</span> <span class="n">linearRegression</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="n">Y</span><span class="p">)</span>
 <span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">m2</span><span class="p">,</span><span class="nb">float</span><span class="p">),</span><span class="s2">&quot;m is not a float&quot;</span>
@@ -13024,6 +13115,24 @@ $$</p>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>(3.9151, 8.2452)
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -13040,10 +13149,10 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[57]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># 请不要修改下面的代码</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># 请不要修改下面的代码</span>
 <span class="n">x1</span><span class="p">,</span><span class="n">x2</span> <span class="o">=</span> <span class="o">-</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span>
 <span class="n">y1</span><span class="p">,</span><span class="n">y2</span> <span class="o">=</span> <span class="n">x1</span><span class="o">*</span><span class="n">m2</span><span class="o">+</span><span class="n">b2</span><span class="p">,</span> <span class="n">x2</span><span class="o">*</span><span class="n">m2</span><span class="o">+</span><span class="n">b2</span>
 
@@ -13060,6 +13169,28 @@ $$</p>
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -13072,13 +13203,31 @@ $$</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[58]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="k">print</span><span class="p">(</span><span class="n">calculateMSE</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="n">Y</span><span class="p">,</span><span class="n">m2</span><span class="p">,</span><span class="n">b2</span><span class="p">))</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="n">calculateMSE</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="n">Y</span><span class="p">,</span><span class="n">m2</span><span class="p">,</span><span class="n">b2</span><span class="p">))</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>0.746947387625
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
